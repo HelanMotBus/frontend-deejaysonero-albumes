@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="card w-50">
           <div className="d-flex justify-content-center align-items-center">
             <img
-              src="/src/assets/imagenes/sonero1.jpg"
+              src="https://i.postimg.cc/zvv48M5v/sonero1.jpg"
               className=" card-img-top w-50"
               alt="sonero de barrio"
             />

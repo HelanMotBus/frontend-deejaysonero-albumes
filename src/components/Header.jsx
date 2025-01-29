@@ -6,7 +6,7 @@ const Header = () => {
     <div className="d-flex flex-row align-items-center justify-content-center">
       <nav className="navbar navbar-dark">
         <img
-          src="/src/assets/imagenes/logo-sonero.png"
+          src="https://i.postimg.cc/vBN3LmF8/logo-sonero.png"
           className="rounded float-start p-1 logo"
         />
         <ul

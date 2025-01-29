@@ -72,13 +72,13 @@ const Home = () => {
       >
         <div className="carousel-inner d-flex justify-content-around">
           <div className="carousel-item active " data-bs-interval="10000">
-            <img src="/src/assets/imagenes/sensacion.png" className="d-block w-50" alt="sensacion del guaguanco" />
+            <img src="https://i.postimg.cc/59KZnxqC/sensacion.png" className="d-block w-50" alt="sensacion del guaguanco" />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img src="/src/assets/imagenes/guaguanco.png" className="d-block w-50" alt="guaguanco con criterio" />
+            <img src="https://i.postimg.cc/dVrpsGM2/guaguanco.png" className="d-block w-50" alt="guaguanco con criterio" />
           </div>
           <div className="carousel-item" data-bs-interval="3000">
-            <img src="/src/assets/imagenes/emisora.png" className="d-block w-50" alt="radio guaguanco" />
+            <img src="https://i.postimg.cc/4yY2r9bh/emisora.png" className="d-block w-50" alt="radio guaguanco" />
           </div>
         </div>
         <button
