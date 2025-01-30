@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import Header from "./Header";
+
 const Home = () => {
   return (
     <>
+    <Header/>
       <div className="container">
         <h1 className="text-center text-light p-1">
           Dee Jay Sonero de Barrio - Ibagué - Tolima - Colombia
@@ -106,6 +110,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Global } from "../helpers/Global";
 import { NavLink } from "react-router-dom";
+import "../index.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Downloads = () => {
   const [albumes, setAlbumes] = useState([]);
@@ -27,12 +30,14 @@ const Downloads = () => {
 
   return (
     <>
-      
-        <div className="d-flex flex-row align-items-center justify-content-center mb-3 mt-3 p-3 row row-cols-5">
+      <Header/>
+        <div className="d-flex flex-row align-items-center justify-content-center mb-3 mt-3 p-3 row">
           {albumes.map((album) => {
             return (
               
-                <div className="col" key={album._id}>
+                <div className="col-sm-12 col-md-6 col-lg-4 col-xl-3" key={album._id}>
+                  {/*smdispositivos entre 576 y 768 | md entre 768 y 992 | lg entre 992 y 1200 | xl mayores de 1200 */}
+                  {/*diseño responsivo de las columnas dependiendo el tamaño*/}
                   <NavLink to={album.enlace} target="_blank">
                     <img
                       src={Global.url + "imagen/" + album.imagen}
@@ -45,7 +50,7 @@ const Downloads = () => {
             );
           })}
         </div>
-     
+     <Footer/>
     </>
   );
 };
